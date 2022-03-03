@@ -8,13 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'YUZEJIA',
   tagline: '',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://github.com/yuzejia/blog.git master:gh-pages',
+  baseUrl: '/blog/',
+  projectName: 'endiliey.github.io',
+  organizationName: 'endiliey',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
 
   presets: [
     [
@@ -51,15 +52,15 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '博客',
           },
           {
             to: '/blog',
-            label: 'Blog',
+            label: '阅读',
             position: 'left'
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/yuzejia/blog',
             label: 'GitHub',
             position: 'right',
           },
@@ -70,39 +71,25 @@ const config = {
       footer: {
         style: 'dark',
         links: [{
-            title: 'Docs',
+            title: '博客',
             items: [{
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'javaScript',
+              to: '/docs/javaScript/链表',
             }, ],
           },
           {
-            title: 'Community',
+            title: '关联',
             items: [{
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            }],
           },
           {
-            title: 'More',
+            title: '链接',
             items: [{
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
+              label: 'GitHub',
+              href: 'https://github.com/yuzejia/blog',
+            }, ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
