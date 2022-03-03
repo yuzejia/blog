@@ -1,11 +1,4 @@
----
-title: webpack搭建
-date: 2021-08-02
-categories:
-  - 前端
-tags:
-  - webpack
----
+# webpack 搭建
 
 ## 打包环境
 

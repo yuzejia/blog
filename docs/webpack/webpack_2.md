@@ -1,11 +1,4 @@
----
-title: webpack打包css和图片
-date: 2021-08-02
-categories:
-  - 前端
-tags:
-  - webpack
----
+# webpack 打包 css 和图片
 
 ## 接下来我们继续 打包 css 和 图片资源
 
@@ -77,13 +70,13 @@ h1 {
 ```
 
 **执行 npm run build**
+<img src={require('@site/static/img/webpack/175ef97e31a47be38be8809ebf2d27d.png').default} />
 
-<img src="./img/175ef97e31a47be38be8809ebf2d27d.png" alt="An image" style="zoom:33%;" />
- 编译成功~
+编译成功~
 
 **浏览器运行 dist 文件下的 index.html**
 css 样成功显示！
-<img src="./img/6a2ea495ac14542b741c1eff1790108.png" alt="An image" style="zoom: 33%;" />
+<img src={require('@site/static/img/webpack/6a2ea495ac14542b741c1eff1790108.png').default} />
 
 ## 图片资源打包
 
