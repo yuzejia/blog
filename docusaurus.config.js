@@ -15,7 +15,7 @@ const config = {
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/docusaurus.jpg',
 
   presets: [
     [
@@ -46,7 +46,7 @@ const config = {
         title: 'YUZEJIA',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/docusaurus.jpg',
         },
         items: [{
             type: 'doc',
