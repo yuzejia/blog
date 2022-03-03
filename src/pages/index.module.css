@@ -4,15 +4,18 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  height: 50rem;
+  padding: 0;
 }
 
 @media screen and (max-width: 966px) {
   .heroBanner {
-    padding: 2rem;
+    height: 500px;
+    
+    
   }
 }
 
@@ -21,3 +24,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.mains{
+  height: 100%;
+}
+
+.mains .content {
+  width: 100%;
+  height: 100%;
+}
+

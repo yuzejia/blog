@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>YUZEJIA</title>
+  <style type="text/css">
+    .write-vertical-bar {
+      width: 0.8em;
+      height: 1.1em;
+      display: inline-block;
+      background-color: #4a4a4a;
+      position: relative;
+      top: 0.2em;
+      margin-left: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="home-desc"></div>
+
+  <script type="text/javascript">
+    const home = document.getElementById('home-desc')
+    function writeOneByOne(text, dom, container, opt) {
+      const el = document.createElement(dom)
+      const bar = document.createElement('span')
+      bar.className = 'write-vertical-bar'
+      el.appendChild(bar)
+      container.appendChild(el)
+
+      let timer = null,
+        currentIndex = 0,
+        interval = opt.interval || 100,
+        sleep = opt.sleep || 0
+
+      return new Promise(resolve => {
+        function next() {
+          const textNode = document.createTextNode(text[currentIndex])
+          el.insertBefore(textNode, bar)
+          currentIndex++
+
+          if (currentIndex < text.length) {
+            timer = setTimeout(() => {
+              next()
+            }, 100)
+          } else {
+            timer = setTimeout(() => {
+              el.removeChild(bar)
+              clearTimeout(timer)
+              resolve()
+            }, sleep)
+          }
+        }
+
+        next()
+      })
+    }
+
+    writeOneByOne('嗨哟。', 'h2', home, { interval: 150, sleep: 300 })
+      .then(() => writeOneByOne('我是YUZEJIA，', 'h4', home, { interval: 150, sleep: 300 }))
+      .then(() => writeOneByOne('一名前端开发工程师，HAHA~。', 'p', home, { sleep: 400 }))
+
+  </script>
+</body>
+
+</html>
