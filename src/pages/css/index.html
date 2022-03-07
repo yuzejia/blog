@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>摇一摇</title>
+</head>
+<body>
+    <div id="x">摇一摇</div>
+    
+    <script>
+
+        var speed = 30; 
+        var x = y = z = lastX = lastY = lastZ = 0;
+        function eventDataHandler(eventData) {
+            console.log(eventData);
+            document.getElementById("x").innerHTML = eventData
+            var acceleration = event.accelerationIncludingGravity;
+            x = acceleration.x;
+            y = acceleration.y;
+            z = acceleration.z;
+            if( Math.abs(x - lastX) > speed || Math.abs(y - lastY) > speed
+            || Math.abs(z - lastZ) > speed
+            ) {
+                alert("中奖啦~")
+            }
+        }
+        window.addEventListener("devicemotion", eventDataHandler)
+    </script>
+</body>
+</html>
