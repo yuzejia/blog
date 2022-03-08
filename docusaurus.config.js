@@ -86,10 +86,16 @@ const config = {
           },
           {
             title: '链接',
-            items: [{
-              label: 'GitHub',
-              href: 'https://github.com/yuzejia/blog',
-            }, ],
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/yuzejia/blog',
+              },
+              {
+                label: "docusaurus",
+                href: "https://www.docusaurus.cn/docs"
+              }
+           ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
