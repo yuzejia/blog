@@ -40,7 +40,22 @@ class BinarySearchTree {
     }
 
     // 在树中查找一个节点
-    search (key) {}
+    search (key) {
+
+       return this.searchNode(this.root, key)
+
+    }
+
+    searchNode(node, key) {
+        if (node === null) return null;
+
+        // 如果 查询元素 小于当前元素 左侧查询
+        if (key < node.el) return this.searchNode(node.left, key);
+        // 如果大于 右侧查询
+        else if (key > node.el) return this.searchNode(node.right, key);
+        else return node;
+        
+    }
 
     // 通过中序遍历方式遍历树中的所有节点
     inOrderTraverse (callback) {
@@ -61,9 +76,10 @@ class BinarySearchTree {
     }
 
     // 递归
-    preOrderTraverseNode(callback) {
+    preOrderTraverseNode(node, callback) {
         if (node !== null) {
             callback(node.el);
+
             this.preOrderTraverseNode(node.left, callback);
             this.preOrderTraverseNode(node.right, callback);
         }
@@ -74,20 +90,39 @@ class BinarySearchTree {
         this.postOrderTraverseNode(this.root, callback)
     }
 
-    postOrderTraverseNode(callback) {
+    postOrderTraverseNode(node, callback) {
         if (node !== null) {
             this.preOrderTraverseNode(node.left, callback);
-            callback(node.el);
             this.preOrderTraverseNode(node.right, callback);
+            callback(node.el);
+
         }
     }
 
 
     // 返回树中的最小节点
-    min () {}
+    min () {
+        if(this.root === null) return null;
+
+        let node = this.root
+        while (node.left) {
+            node = node.left;
+        }
+
+        return node
+    }
 
     // 返回树中的最大节点
-    max () {}
+    max () {
+        if(this.root === null) return null;
+
+        let node = this.root
+        while (node.right) {
+            node = node.right;
+        }
+
+        return node
+    }
 
     // 从树中移除一个节点
     remove (key) {}
@@ -99,7 +134,7 @@ tree.insert(4)
 tree.insert(6)
 tree.insert(3)
 tree.insert(7)
-tree.inOrderTraverse((res) => {
+tree.preOrderTraverse((res) => {
     console.log(res);
 })
 console.log(tree)
