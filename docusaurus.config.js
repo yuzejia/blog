@@ -72,10 +72,7 @@ const config = {
         style: 'dark',
         links: [{
             title: '博客',
-            items: [{
-              label: 'javaScript',
-              to: '/docs/javaScript/链表',
-            }, ],
+            items: [ ],
           },
           {
             title: '关联',
