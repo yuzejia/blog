@@ -1,4 +1,4 @@
-# ts-utils
+# TS | ts-utils
 
 ```typescript
 interface ArrayLike<T> {

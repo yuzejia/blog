@@ -1,4 +1,4 @@
-# tsconfig.json配置
+# TS | 配置
 
 ## 概述
 

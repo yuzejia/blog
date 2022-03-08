@@ -1,4 +1,4 @@
-# keyof
+# TS | keyof
 TypeScript中的keyof操作符，是将一个类型映射为它所有成员名称的联合类型。
 
 keyof 是将一个类型映射为他所有成员的联合声明
