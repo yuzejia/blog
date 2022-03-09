@@ -1,10 +1,12 @@
 # node文件打包
 
 ## archiver
+npm https://www.npmjs.com/package/node-archiver
 
+以数据流的形式 对文件进行压缩
 ## 安装
 
-    npm i archiver
+    npm install archiver --save
 
 ## 编写文件
 
