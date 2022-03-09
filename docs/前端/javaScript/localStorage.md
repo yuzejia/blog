@@ -1,4 +1,4 @@
-# 监听 localStorage 变化
+# JS | 监听localStorage
 
 ```javaScript
 var orignalSetItem = localStorage.setItem;

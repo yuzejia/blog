@@ -1,4 +1,4 @@
-# MutationObserver
+# JS | MutationObserver
 
 你可能不知道 MutationObserver
 做 Google 插件开发的时候 需要动态监听 dom 变化来进行 dom 节点的增加。
