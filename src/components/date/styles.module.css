@@ -1,0 +1,109 @@
+
+
+.dateContent{
+  margin: 80px;
+  height: 600px;
+  /* background: rgb(196, 190, 190); */
+  border-radius: 10px;
+}
+
+.timeBox{
+  display: flex;
+  justify-items: center;
+  margin-top: 60px;
+  position: relative;
+}
+
+.spanTime{
+  display: inline-block;
+  width: 130px;
+  height: 100px;
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 100px;
+  margin: 0 5px;
+  font-size: 16px;
+  box-shadow: 0px 5px 15px #999;
+}
+
+.spanTime:last-child{
+    transform-style: preserve-3d; 
+    /* 奇点设为左边 */
+    transform-origin: right top;
+    transition: 0.5s all ease;
+    transform: rotateX(0deg) rotateY(0deg);
+    animation:myMove  2s 0.6s infinite;
+}
+
+
+.spanTime:nth-of-type(1){
+  transform-style: preserve-3d; 
+  /* 奇点设为左边 */
+  transform-origin: right top;
+  transition: 0.5s all ease;
+  transform: rotateX(0deg) rotateY(0deg);
+  animation:myMove  2s infinite;
+}
+
+.spanTime:nth-of-type(2){
+  transform-style: preserve-3d; 
+  /* 奇点设为左边 */
+  transform-origin: right top;
+  transition: 0.5s all ease;
+  transform: rotateX(0deg) rotateY(0deg);
+  animation:myMove  2s 0.1s infinite;
+}
+
+.spanTime:nth-of-type(3){
+  transform-style: preserve-3d; 
+  /* 奇点设为左边 */
+  transform-origin: right top;
+  transition: 0.5s all ease;
+  transform: rotateX(0deg) rotateY(0deg);
+  animation:myMove  2s 0.2s infinite;
+}
+
+.spanTime:nth-of-type(4){
+  transform-style: preserve-3d; 
+  /* 奇点设为左边 */
+  transform-origin: right top;
+  transition: 0.5s all ease;
+  transform: rotateX(0deg) rotateY(0deg);
+  animation:myMove  2s 0.4s infinite;
+}
+
+/* @keyframes myMove
+{ 
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  10% {
+    transform: rotateX(20deg) rotateY(0deg);
+  }
+  20% {
+    transform: rotateX(60deg) rotateY(0deg);  
+  }
+  40% {
+    transform: rotateX(30deg) rotateY(0deg);
+  }
+  60% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+} */
+
+.spanTimeRotate{
+  transform: rotateX(0deg) rotateY(0deg);
+}
+
+/* .rope{
+  width: 1000px;
+  height: 5px;
+  background:  #666;
+  position: absolute;
+  z-index: -1;
+  left: -20px;
+  top: -1px;
+  
+} */
+

@@ -5,11 +5,17 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
-
+import DateBox from "../components/date";
 function HomepageHeader() {
   return (
-    <div id="htmlS" className={clsx(styles.contentBox)}>
+    <div className={clsx(styles.content)}>
+      <div id="htmlS" className={clsx(styles.contentBox)}>
+      </div>
+      <div className={clsx(styles.contentBoxRight)}>
+      <DateBox />
+      </div>
     </div>
+    
   );
 }
 

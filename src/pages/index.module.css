@@ -42,8 +42,17 @@
  margin-top: 240px;
 }
 
+.content{
+  display: flex;
+  flex: auto;
+}
 .contentBox{
+  width: 30%;
   margin: 140px 80px;
+}
+
+.contentBoxRight{
+  width: 60%;
 }
 
 .height0{
