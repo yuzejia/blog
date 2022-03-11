@@ -12,7 +12,6 @@ function HomepageHeader() {
       <div id="htmlS" className={clsx(styles.contentBox)}>
       </div>
       <div className={clsx(styles.contentBoxRight)}>
-      <DateBox />
       </div>
     </div>
     
