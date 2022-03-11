@@ -48,17 +48,20 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/docusaurus.jpg',
         },
-        items: [{
+        items: [
+          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: '博客',
           },
+      
           {
             to: '/blog',
             label: '阅读',
             position: 'left'
           },
+  
           {
             href: 'https://github.com/yuzejia/blog',
             label: 'GitHub',

@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.前端": {
+    "message": "前端",
+    "description": "The label for category 前端 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.css": {
+    "message": "css",
+    "description": "The label for category css in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.javaScript": {
+    "message": "javaScript",
+    "description": "The label for category javaScript in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.typescript": {
+    "message": "typescript",
+    "description": "The label for category typescript in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.webpack": {
+    "message": "webpack",
+    "description": "The label for category webpack in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.数据结构": {
+    "message": "数据结构",
+    "description": "The label for category 数据结构 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.微信": {
+    "message": "微信",
+    "description": "The label for category 微信 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Node": {
+    "message": "Node",
+    "description": "The label for category Node in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Chrome": {
+    "message": "Chrome",
+    "description": "The label for category Chrome in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.mb": {
+    "message": "mb",
+    "description": "The label for category mb in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.数据库": {
+    "message": "数据库",
+    "description": "The label for category 数据库 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.mysql": {
+    "message": "mysql",
+    "description": "The label for category mysql in sidebar tutorialSidebar"
+  }
+}

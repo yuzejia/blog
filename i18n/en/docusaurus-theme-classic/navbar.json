@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "YUZEJIA",
+    "description": "The title in the navbar"
+  },
+  "item.label.博客": {
+    "message": "博客",
+    "description": "Navbar item with label 博客"
+  },
+  "item.label.阅读": {
+    "message": "阅读",
+    "description": "Navbar item with label 阅读"
+  },
+  "item.label.笔记": {
+    "message": "笔记",
+    "description": "Navbar item with label 笔记"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
