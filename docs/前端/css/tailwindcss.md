@@ -1,5 +1,7 @@
 # tailwindCss 使用
 tailwindCss 初探
+[https://www.tailwindcss.cn/](https://www.tailwindcss.cn/)
+
 
 使用项目 vue3 + ts
 
@@ -15,7 +17,7 @@ tailwindCss 初探
 ```
     npx tailwindcss init -p
 ```
-tailwind.config.js
+### tailwind.config.js
 
 
 ## 配置 Tailwind 来移除生产环境下没有使用到的样式声明
@@ -33,7 +35,7 @@ tailwind.config.js
 
 ```
 
-postcss.config.js
+### postcss.config.js
 这也将会创建一个包含已配置好的 tailwindcss 和 autoprefixer 的 postcss.config.js 配置文件：
 ```javascript
 module.exports = {
