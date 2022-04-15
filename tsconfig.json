@@ -3,6 +3,7 @@
   "extends": "@tsconfig/docusaurus/tsconfig.json",
 
   // 写个注释
+  // develop 测试
   "compilerOptions": {
     "baseUrl": "."
   }
