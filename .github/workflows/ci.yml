@@ -27,7 +27,7 @@ jobs:
         uses: easingthemes/ssh-deploy@v2.1.5
         env:
           #私钥
-          SSH_PRIVATE_KEY: ${{ secrets.tengxun_yzj_blog }}
+          SSH_PRIVATE_KEY: ${{ secrets.TENXUN_YZJ_BLOG }}
           #SCp参数
           ARGS: "-rltgoDzvO --delete"
           #源目录
