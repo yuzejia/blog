@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 迁出代码
+        uses: actions/checkout@master
+
+      - name: 安装node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "14.16.1"
+
+      - name: 安装依赖
+        run: npm install
+
+      - name: 打包
+        run: npm run build
+
+      - name: 发布到腾讯云
+        uses: easingthemes/ssh-deploy@v2.1.5
+        env:
+          #私钥
+          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+          #SCp参数
+          ARGS: "-rltgoDzvO --delete"
+          #源目录
+          SOURCE: "dist/"
+          #服务器Ip:换成你的服务器iP
+          REMOTE_HOST: "175.27.138.124"
+          #用户
+          REMOTE_USER: "root"
+          #目标地址
+          TARGET: "/data/www/yzj/blog"
