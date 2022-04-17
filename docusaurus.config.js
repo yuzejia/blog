@@ -9,7 +9,7 @@ const config = {
   title: 'YUZEJIA',
   tagline: '',
   url: 'https://github.com/yuzejia/blog.git master:gh-pages',
-  baseUrl: '/blog/',
+  baseUrl: '/yzj/blog/',
   projectName: 'endiliey.github.io',
   organizationName: 'endiliey',
   trailingSlash: false,
