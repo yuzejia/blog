@@ -15,7 +15,7 @@ jobs:
       - name: 安装node.js
         uses: actions/setup-node@v1
         with:
-          node-version: "14.16.1"
+          node-version: "14.15.0"
 
       - name: 安装依赖
         run: npm install
@@ -31,7 +31,7 @@ jobs:
           #SCp参数
           ARGS: "-rltgoDzvO --delete"
           #源目录
-          SOURCE: "dist/"
+          SOURCE: "build/"
           #服务器Ip:换成你的服务器iP
           REMOTE_HOST: "175.27.138.124"
           #用户
