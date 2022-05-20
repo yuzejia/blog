@@ -1,15 +1,31 @@
+# name 标识一下这个ci 文件名称 纯语义化的项，没有任何意义
 name: CI
 
+# 配置该仓库的分支触发什么事情后进行该 ci 的调用
 on:
+  # master push 后触发
   push:
     branches:
       - master
+  # master master pull_request 触发
+  pull_request:
+    branches:
+      - master
 
+# jobs 是一个功能脚本的维度集合。比如配置检测库语法 发布库 可以作为两个小工作（job）.一个yml 可以运行多个job
 jobs:
+
+# 一个lobs 拥有 setup / build / test 的持续执行单元。这个维度大于steps 小于jobs
   build:
+
+# 该操作跑在什么环境之下，支持 Ubuntu/windows/macOS
     runs-on: ubuntu-latest
+
+    # steps 标识使用创建好的功能脚本， 
     steps:
       - name: 迁出代码
+      # uses 标识使用创建好的功能脚本，actions / 标识了这个github 公开的脚本库
+      # 这里使用一个名为 checkout@master 的脚本库
         uses: actions/checkout@master
 
       - name: 安装node.js
@@ -36,5 +52,5 @@ jobs:
           REMOTE_HOST: "175.27.138.124"
           #用户
           REMOTE_USER: "root"
-          #目标地址
+          #目标地址 服务器前端包部署地址
           TARGET: "/data/www/y-blog"
