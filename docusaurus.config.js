@@ -13,7 +13,7 @@ const config = {
   projectName: 'endiliey.github.io',
   organizationName: 'endiliey',
   trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/docusaurus.jpg',
 
@@ -57,7 +57,7 @@ const config = {
           },
       
           {
-            to: '/blog/艾宾浩斯遗忘曲线',
+            to: '/blog',
             label: '阅读',
             position: 'left'
           },
