@@ -1,5 +1,5 @@
 # name 标识一下这个ci 文件名称 纯语义化的项，没有任何意义
-name: CI
+name: deploy-ci
 
 # 配置该仓库的分支触发什么事情后进行该 ci 的调用
 on:
@@ -28,7 +28,7 @@ jobs:
       # 这里使用一个名为 checkout@master 的脚本库
         uses: actions/checkout@master
 
-      - name: install 
+      - name: install  🙌
         run: npm install
 
       - name: Install and Build 🔧 
@@ -38,5 +38,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: build
+          publish_branch: gh-pages
+          publish_dir: build
