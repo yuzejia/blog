@@ -28,24 +28,15 @@ jobs:
       # 这里使用一个名为 checkout@master 的脚本库
         uses: actions/checkout@master
 
-      - name: 安装依赖
+      - name: install 
         run: npm install
 
-      - name: 打包
+      - name: Install and Build 🔧 
         run: npm run build
 
-      - name: 发布到腾讯云
-        uses: easingthemes/ssh-deploy@v2.1.5
-        env:
-          #私钥
-          SSH_PRIVATE_KEY: ${{ secrets.TENXUN_YZJ_BLOG }}
-          #SCp参数
-          ARGS: "-rltgoDzvO --delete"
-          #源目录
-          SOURCE: "build/"
-          #服务器Ip:换成你的服务器iP
-          REMOTE_HOST: "175.27.138.124"
-          #用户
-          REMOTE_USER: "root"
-          #目标地址 服务器前端包部署地址
-          TARGET: "/data/www/y-blog"
+      - name: Deploy 🚀
+         uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: public
