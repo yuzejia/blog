@@ -57,7 +57,7 @@ const config = {
           },
       
           {
-            to: '/blog',
+            to: '/blog/艾宾浩斯遗忘曲线',
             label: '阅读',
             position: 'left'
           },

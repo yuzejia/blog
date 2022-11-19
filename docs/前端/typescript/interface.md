@@ -5,7 +5,7 @@
 
 对象接口定义
 
-```typeScript
+```ts
     interface Person {
         readonly  name: string;   // readonly标识只读属性 设置后就不能修改了
         age:  number;
@@ -31,7 +31,7 @@
 
 一个类可以实现多个接口，一个接口也可以被多个类实现
 
-```typeScript
+```ts
 interface PersonInfo {
     info(): void;
 }

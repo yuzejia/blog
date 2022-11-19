@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-
+import Comment from '../../components/comment';
 type FeatureItem = {
   title: string;
   image: string;
@@ -37,7 +37,9 @@ function Feature({title, image, description}: FeatureItem) {
               <Feature key={idx} {...props} />
             ))}
           </div>
+
         </div>
+
       </section>
     ); 
   }

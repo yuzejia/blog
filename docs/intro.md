@@ -32,7 +32,8 @@ egghead学习网站: [https://egghead.io/](https://egghead.io/)
 - 《Koa 开发：入门，进阶与实战》
 ## 文章
 
-成为前端大师，看这20个github库就够了: [https://zhuanlan.zhihu.com/p/465197334](https://zhuanlan.zhihu.com/p/465197334)
+[https://zhuanlan.zhihu.com/p/465197334](https://zhuanlan.zhihu.com/p/465197334)
+
 TS高级类型工具：[https://juejin.cn/post/6994102811218673700#comment](https://juejin.cn/post/6994102811218673700#comment)
 ## 相关技术
 - node.js
@@ -61,3 +62,17 @@ TS高级类型工具：[https://juejin.cn/post/6994102811218673700#comment](http
 
 区块链的 DApps？可以查看此存储库：
 GitHub logo ruppysuppy / Crypto-Crowdfund
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Health check
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```

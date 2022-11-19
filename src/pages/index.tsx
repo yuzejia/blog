@@ -1,11 +1,8 @@
 import React, { useEffect, useState, ReactDOM } from "react";
 import clsx from "clsx";
 import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
-import DateBox from "../components/date";
 function HomepageHeader() {
   return (
     <div className={clsx(styles.content)}>
@@ -33,11 +30,10 @@ export default class Home extends React.Component {
   }
 
   componentDidMount(): void {
-    console.log("====-", document.querySelector("#htmlS"));
     const home = document.querySelector("#htmlS");
     this.writeOneByOne("嗨哟。", "h2", home, { interval: 150, sleep: 300 })
       .then(() =>
-        this.writeOneByOne("我是YUZEJIA，", "h4", home, {
+        this.writeOneByOne("我是 YUZEJIA，", "h4", home, {
           interval: 150,
           sleep: 300,
         })
@@ -49,7 +45,7 @@ export default class Home extends React.Component {
       );
   }
 
-  writeOneByOne(text, dom, container, opt) {
+  writeOneByOne(text: string | any[], dom: string, container: Element, opt: { interval?: any; sleep: any; }) {
     const el = document.createElement(dom);
     const bar = document.createElement("span");
     bar.className = "write-vertical-bar";

@@ -17,6 +17,7 @@
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.16",
     "@docusaurus/preset-classic": "2.0.0-beta.16",
+    "@giscus/react": "^2.2.3",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "moment": "^2.29.1",
