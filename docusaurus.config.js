@@ -16,7 +16,6 @@ const config = {
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/docusaurus.jpg',
-
   presets: [
     [
       'classic',
@@ -39,9 +38,14 @@ const config = {
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+  themeConfig:{
+    algolia: {
+      appId:'4Z9YZSL3WS',
+
+      // Public API key: it is safe to commit it
+      apiKey: '2d3473083ebc8ec6ed92afd439630c45',
+      indexName: 'yuki_123',
+    },
       navbar: {
         title: 'YUZEJIA',
         logo: {
@@ -55,7 +59,16 @@ const config = {
             position: 'left',
             label: '博客',
           },
-      
+          {
+            to: '/docs/optimize/intro',
+            position: 'left',
+            label: '性能优化',
+          },
+          {
+            to: '/docs/algorithm/intro',
+            position: 'left',
+            label: '算法',
+          },
           {
             to: '/blog',
             label: '阅读',
@@ -104,7 +117,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
+    },
 };
 
 module.exports = config;
