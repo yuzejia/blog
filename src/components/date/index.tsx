@@ -9,7 +9,7 @@ import moment from 'moment';
 function LeftTime() {
   const [current, setTime] = useState("");
 
-  const timerID: any = useRef();
+  const timerID: {current: NodeJS.Timer} = useRef();
   
   const deadLine= moment('2023-1-1 00:00:00');
 
@@ -18,11 +18,11 @@ function LeftTime() {
   let durationTime = moment.duration(deadLineTime);
 
   
-  let isArrived =  deadLineTime < 0;
+  const isArrived =  deadLineTime < 0;
   
   useEffect(() => {
     timerID.current = setInterval(() => {
-      let arriveTime = `${durationTime.months() } 月,${durationTime.days()} 天, ${durationTime.hours()} , ${durationTime.minutes()} , ${durationTime.seconds()}`;
+      const arriveTime = `${durationTime.months() } 月,${durationTime.days()} 天, ${durationTime.hours()} , ${durationTime.minutes()} , ${durationTime.seconds()}`;
       if (!isArrived) {
         durationTime = moment.duration(deadLine.diff(moment()));
 
@@ -42,7 +42,7 @@ function LeftTime() {
       
       <div className={styles.rope}></div>
         {
-          current ? current.split(',').map((item) => <span className={ clsx(styles.spanTime)}> {item} </span>  ) : ''
+          current ? current.split(',').map((item, index) => <span key={index} className={ clsx(styles.spanTime)}> {item} </span>  ) : ''
         }
 
     </div>

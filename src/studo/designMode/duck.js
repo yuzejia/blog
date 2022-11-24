@@ -42,18 +42,16 @@ makeSound(new Chicken())
 
 // 对象多态性 封装
 
-var makeSound = function (animal) {
-    animal.sound()
-}
+
 // 鸭子
-var Ducks = function () {};
+// const Ducks = function () {};
 // 通过原型 增加叫的动作
 Duck.prototype.sound = function () {
     console.log("嘎嘎")
 }
 
 // 鸡
-var Chickens = function () {};
+// const Chickens = function () {};
 // 鸡也有同样会叫的方法
 Chicken.prototype.sound = function () {
     console.log('咯咯咯')

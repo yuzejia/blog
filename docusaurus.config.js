@@ -60,17 +60,7 @@ const config = {
             label: '博客',
           },
           {
-            to: '/docs/optimize/intro',
-            position: 'left',
-            label: '性能优化',
-          },
-          {
-            to: '/docs/algorithm/intro',
-            position: 'left',
-            label: '算法',
-          },
-          {
-            to: '/blog',
+            to: '/blog/blog',
             label: '阅读',
             position: 'left'
           },

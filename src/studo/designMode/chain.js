@@ -12,75 +12,75 @@
 
 // 编写责任链模式
 
-class Chain {
-    constructor(fn) {
-        this.fn = fn;   // 节点对象
-        this.nextSuccess = null;
-    }
+// class Chain {
+//     constructor(fn) {
+//         this.fn = fn;   // 节点对象
+//         this.nextSuccess = null;
+//     }
 
-    // 设置下个节点
-    setNextSuccess(next) {
-        this.nextSuccess = next
-    }
+//     // 设置下个节点
+//     setNextSuccess(next) {
+//         this.nextSuccess = next
+//     }
 
-    async implement(...arg) {
-        let res = await this.fn.apply(this, arg)
-        console.log(res);
-        // 通过上个节点 是否返回继续执行标识
-        if (res) {  
+//     async implement(...arg) {
+//         let res = await this.fn.apply(this, arg)
+//         console.log(res);
+//         // 通过上个节点 是否返回继续执行标识
+//         if (res) {  
             
-            // 这里注意 当前 this.nextSuccess 是下个节点 apply 指向是 this.nextSuccess，千万不要是 this (this 等于第一个实例节点 会造成死循环)
-            return this.nextSuccess && this.nextSuccess.implement.call(this.nextSuccess, res)
-        }
-    }
-}
+//             // 这里注意 当前 this.nextSuccess 是下个节点 apply 指向是 this.nextSuccess，千万不要是 this (this 等于第一个实例节点 会造成死循环)
+//             return this.nextSuccess && this.nextSuccess.implement.call(this.nextSuccess, res)
+//         }
+//     }
+// }
 
 
-function creatOrder(m, b) {
-    console.log('创建订单', m, b);
-    return "0"
-}
+// function creatOrder(m, b) {
+//     console.log('创建订单', m, b);
+//     return "0"
+// }
 
-// 
- function pay(m) {
-     console.log('开始支付', m);
-    //    return 'nextSuccessor'
-}
+// // 
+//  function pay(m) {
+//      console.log('开始支付', m);
+//     //    return 'nextSuccessor'
+// }
 
-function payResult(m) {
-    console.log('支付完成');
-}
+// function payResult(m) {
+//     console.log('支付完成');
+// }
 
-const _creatOrder = new Chain(creatOrder)
-const _pay = new Chain(pay)
-const _payResult = new Chain(payResult)
+// const _creatOrder = new Chain(creatOrder)
+// const _pay = new Chain(pay)
+// const _payResult = new Chain(payResult)
 
-// _creatOrder.setNextSuccess(_pay)
-// _pay.setNextSuccess(_payResult)
-// console.log(_creatOrder);
-// console.log(_pay);
-// _creatOrder.implement('222', '333')
+// // _creatOrder.setNextSuccess(_pay)
+// // _pay.setNextSuccess(_payResult)
+// // console.log(_creatOrder);
+// // console.log(_pay);
+// // _creatOrder.implement('222', '333')
 
-class A{
-    constructor(fn) {
-        this.fn = fn
-    }
+// class A{
+//     constructor(fn) {
+//         this.fn = fn
+//     }
 
-    pipe(f) {
-        this.fn.call(this, arguments)
-        return f && new A(f)
-    }
-}
+//     pipe(f) {
+//         this.fn.call(this, arguments)
+//         return f && new A(f)
+//     }
+// }
 
-function a() {
-    console.log('aaaaaaaaa');
-}
+// function a() {
+//     console.log('aaaaaaaaa');
+// }
 
-function b(params) {
-    console.log('0000', params);
-}
+// function b(params) {
+//     console.log('0000', params);
+// }
 
-function c() {
-    console.log('cccccccc');
-}
-new A(a).pipe(b).pipe(c)
+// function c() {
+//     console.log('cccccccc');
+// }
+// new A(a).pipe(b).pipe(c)

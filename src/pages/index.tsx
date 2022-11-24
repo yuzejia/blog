@@ -1,4 +1,4 @@
-import React, { useEffect, useState, ReactDOM } from "react";
+import React from "react";
 import clsx from "clsx";
 import Layout from "@theme/Layout";
 import styles from "./index.module.css";
@@ -45,17 +45,15 @@ export default class Home extends React.Component {
       );
   }
 
-  writeOneByOne(text: string | any[], dom: string, container: Element, opt: { interval?: any; sleep: any; }) {
+  writeOneByOne(text: string | string[], dom: string, container: Element, opt: { interval?: unknown; sleep: unknown; }) {
     const el = document.createElement(dom);
     const bar = document.createElement("span");
     bar.className = "write-vertical-bar";
     el.appendChild(bar);
     container.appendChild(el);
 
-    let timer = null,
-      currentIndex = 0,
-      interval = opt.interval || 100,
-      sleep = opt.sleep || 0;
+    let timer = null, currentIndex = 0
+    const sleep = opt.sleep || 0;
 
     return new Promise((resolve) => {
       function next() {

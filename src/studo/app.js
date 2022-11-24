@@ -3,7 +3,7 @@
   const source =  new EventSource("https://www.baidu.com/");
   console.log();
 
-  source.onopen = function (params) {
+  source.onopen = function () {
       console.log("连接成功", this.readyState);
 
   }
