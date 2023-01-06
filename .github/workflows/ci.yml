@@ -1,11 +1,6 @@
 # name 标识一下这个ci 文件名称 纯语义化的项，没有任何意义
 name: deploy-ci
 
-stages:
-  - install
-  - build
-  - deploy
-
 # 配置该仓库的分支触发什么事情后进行该 ci 的调用
 on:
   # master push 后触发
@@ -45,7 +40,7 @@ jobs:
   jobs-deploy:
     name: jobs and Deploy
     steps:
-        name: Deploy 🚀
+      - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
