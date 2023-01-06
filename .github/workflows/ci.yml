@@ -33,12 +33,16 @@ jobs:
 
   jobs-build:
     name: jobs and Build
+    runs-on: ubuntu-latest
+
     steps:
       - name: Install and Build 🔧 
         run: npm run build
         
   jobs-deploy:
     name: jobs and Deploy
+    runs-on: ubuntu-latest
+    
     steps:
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
