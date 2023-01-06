@@ -18,7 +18,7 @@ on:
       - master
 
 # jobs 是一个功能脚本的维度集合。比如配置检测库语法 发布库 可以作为两个小工作（job）.一个yml 可以运行多个job
-jobs-install:
+job_install:
 
 # 一个lobs 拥有 setup / build / test 的持续执行单元。这个维度大于steps 小于jobs
   build:
@@ -37,12 +37,12 @@ jobs-install:
         run: npm install
 
 
-jobs-build:          
+job_build:          
     steps:
       - name: Install and Build 🔧 
         run: npm run build
         
-jobs-deploy:
+job_deploy:
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
