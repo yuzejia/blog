@@ -1,5 +1,5 @@
 # name 标识一下这个ci 文件名称 纯语义化的项，没有任何意义
-name: deploy-ci
+name: deploy-block-ci
 
 # 配置该仓库的分支触发什么事情后进行该 ci 的调用
 on:
@@ -29,12 +29,13 @@ jobs:
 
       - name: install  🙌
         run: npm install
-        
+
       - name: Install and Build 🔧 
         run: npm run build
 
         
   jobs-deploy:
+    if: ${{ always() }}
     name: jobs and Deploy
     runs-on: ubuntu-latest
 
