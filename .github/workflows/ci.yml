@@ -29,8 +29,7 @@ jobs:
 
       - name: install  🙌
         run: npm install
-
-    steps:
+        
       - name: Install and Build 🔧 
         run: npm run build
 
