@@ -36,6 +36,7 @@ jobs:
         
   jobs-deploy:
     if: ${{ always() }}
+    needs: [job1, job2]
     name: jobs and Deploy
     runs-on: ubuntu-latest
 
