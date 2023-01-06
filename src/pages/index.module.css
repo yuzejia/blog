@@ -18,7 +18,16 @@
   }
 }
 
+.mainBox{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  
 
+}
+.mainBox>div {
+    width: 50%;
+}
 
 .mains{
   height: 100%;
