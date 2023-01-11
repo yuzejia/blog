@@ -5,7 +5,6 @@ import styles from "./index.module.css";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import "../css/styles.css"
 import "tailwindcss/tailwind.css"
-import writeOneByOne from "./writeOneByOne"
 
 
 
