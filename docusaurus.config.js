@@ -9,7 +9,7 @@ const config = {
   title: 'YUZEJIA',
   tagline: '',
   url: 'https://175.27.138.124/',
-  baseUrl: '/blog/',
+  baseUrl: '/',
   projectName: 'endiliey.github.io',
   organizationName: 'endiliey',
   trailingSlash: false,
