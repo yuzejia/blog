@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://175.27.138.124/blog/blog</id>
+    <id>https://175.27.138.124/blog</id>
     <title>YUZEJIA Blog</title>
-    <updated>2023-01-11T02:49:12.000Z</updated>
+    <updated>2023-01-30T07:42:06.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://175.27.138.124/blog/blog"/>
+    <link rel="alternate" href="https://175.27.138.124/blog"/>
     <subtitle>YUZEJIA Blog</subtitle>
-    <icon>https://175.27.138.124/blog/img/docusaurus.jpg</icon>
+    <icon>https://175.27.138.124/img/docusaurus.jpg</icon>
     <entry>
         <title type="html"><![CDATA[云边有个小卖部]]></title>
         <id>/云边有个小卖部</id>
-        <link href="https://175.27.138.124/blog/blog/云边有个小卖部"/>
-        <updated>2023-01-11T02:49:12.000Z</updated>
+        <link href="https://175.27.138.124/blog/云边有个小卖部"/>
+        <updated>2023-01-30T07:42:06.000Z</updated>
         <summary type="html"><![CDATA[生命是有光的。在我熄灭以前，能够照亮你一点，就是我所有能做的了。我爱你，你要记得我]]></summary>
-        <content type="html"><![CDATA[<div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_S0QG"><p>生命是有光的。在我熄灭以前，能够照亮你一点，就是我所有能做的了。我爱你，你要记得我</p></div></div><p>作    者：张嘉佳</p><img loading="lazy" src="/blog/assets/images/13eadc46c7896f271c77e6110883761-fb5647d5b92105c9e137dacc9718ecc7.png" class="img_ev3q"><p>读完本数的时候，刚好是2021年12月31日...</p><p>我朋友问我：最后他外婆走的时候你有没有想哭？</p><p>我说：我能理解...</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="遇见错过">遇见，错过<a class="hash-link" href="#遇见错过" title="Direct link to heading">​</a></h3><p>世上真的有像程霜一样的女孩吗？</p><p>程霜把脸贴在刘十三的背上：“你不舍得打我，你喜欢我。不过你再喜欢也没有用的，因为我要死了。”</p><p>程霜还说：“所以你不要喜欢我，因为我死了你就会变成寡妇，被人家骂。”</p><p>那么热的夏天，少年的后背被女孩的悲伤烫出一个洞，一直贯穿到心脏，无数个季节的风穿越这条通道，有一只萤火虫在风里飞舞，忽明忽暗。</p><p>爱你的人永远都在身边，而你却爱着别人...</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="生命是有光的">生命是有光的<a class="hash-link" href="#生命是有光的" title="Direct link to heading">​</a></h3><p>“外婆，你会不会一直陪着我”</p><p>“外婆在的，一直都在”</p><p>感触最深的是外婆得知刘十三失恋失业悲伤至极，<strong>七十岁</strong>的王莺莺，跑到刘十三的城市，灌醉刘十三，一来一去两百公里，开着拖拉机，将七八十斤的行李和一百三的刘十三，拖回了云边镇。</p><p>颠簸一路，喝醉的刘十三一直吐，王莺莺时不时下车替他擦。“艰难，辛苦。”王莺莺的自我感慨，不过是心疼自己的外孙。</p><p>很佩服七十岁的王莹莹还能开的动拖拉机</p><img loading="lazy" src="/blog/assets/images/72e0fdfa88996abfbcaa56946bc18d1-142a8a3f08917b1879c867240feaf80e.png" class="img_ev3q">]]></content>
+        <content type="html"><![CDATA[<div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_S0QG"><p>生命是有光的。在我熄灭以前，能够照亮你一点，就是我所有能做的了。我爱你，你要记得我</p></div></div><p>作    者：张嘉佳</p><img loading="lazy" src="/assets/images/13eadc46c7896f271c77e6110883761-fb5647d5b92105c9e137dacc9718ecc7.png" class="img_ev3q"><p>读完本数的时候，刚好是2021年12月31日...</p><p>我朋友问我：最后他外婆走的时候你有没有想哭？</p><p>我说：我能理解...</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="遇见错过">遇见，错过<a class="hash-link" href="#遇见错过" title="Direct link to heading">​</a></h3><p>世上真的有像程霜一样的女孩吗？</p><p>程霜把脸贴在刘十三的背上：“你不舍得打我，你喜欢我。不过你再喜欢也没有用的，因为我要死了。”</p><p>程霜还说：“所以你不要喜欢我，因为我死了你就会变成寡妇，被人家骂。”</p><p>那么热的夏天，少年的后背被女孩的悲伤烫出一个洞，一直贯穿到心脏，无数个季节的风穿越这条通道，有一只萤火虫在风里飞舞，忽明忽暗。</p><p>爱你的人永远都在身边，而你却爱着别人...</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="生命是有光的">生命是有光的<a class="hash-link" href="#生命是有光的" title="Direct link to heading">​</a></h3><p>“外婆，你会不会一直陪着我”</p><p>“外婆在的，一直都在”</p><p>感触最深的是外婆得知刘十三失恋失业悲伤至极，<strong>七十岁</strong>的王莺莺，跑到刘十三的城市，灌醉刘十三，一来一去两百公里，开着拖拉机，将七八十斤的行李和一百三的刘十三，拖回了云边镇。</p><p>颠簸一路，喝醉的刘十三一直吐，王莺莺时不时下车替他擦。“艰难，辛苦。”王莺莺的自我感慨，不过是心疼自己的外孙。</p><p>很佩服七十岁的王莹莹还能开的动拖拉机</p><img loading="lazy" src="/assets/images/72e0fdfa88996abfbcaa56946bc18d1-142a8a3f08917b1879c867240feaf80e.png" class="img_ev3q">]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[第七天]]></title>
         <id>/第七天</id>
-        <link href="https://175.27.138.124/blog/blog/第七天"/>
-        <updated>2023-01-11T02:49:12.000Z</updated>
+        <link href="https://175.27.138.124/blog/第七天"/>
+        <updated>2023-01-30T07:42:06.000Z</updated>
         <summary type="html"><![CDATA[人间丑善美]]></summary>
         <content type="html"><![CDATA[<div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_S0QG"><p>人间丑善美</p></div></div><p>作    者：余华</p><p>主人公（杨飞）第一人称视角 讲述死后七天里的所遇、所见、所闻之事与往事</p><p>比《活着》更绝望</p><p>比《兄弟》更荒诞</p><p>感触最深的 是杨飞的养父。杨飞出生在火车上，被养父捡到收养那个时候 养父才二十一岁</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[精彩极了”和“糟糕透了]]></title>
         <id>/精彩极了糟糕透了</id>
-        <link href="https://175.27.138.124/blog/blog/精彩极了糟糕透了"/>
-        <updated>2023-01-11T02:49:12.000Z</updated>
+        <link href="https://175.27.138.124/blog/精彩极了糟糕透了"/>
+        <updated>2023-01-30T07:42:06.000Z</updated>
         <summary type="html"><![CDATA[人生需要鼓励]]></summary>
         <content type="html"><![CDATA[<div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_S0QG"><p>人生需要鼓励</p><p>即使自己“糟糕透了”也不要去影响别人</p></div></div><ul><li><p>作品别名: 我的绝妙坏诗</p></li><li><p>作    者: 巴德·舒尔伯格</p></li></ul><p>...</p><p>"精彩极了”和“糟糕透了"</p><p>记得七八岁的时候，我写了第一首诗。母亲一念完那首诗，眼睛亮亮地，
 兴奋地嚷着：“巴迪，真是你写的吗？多美的诗啊！精彩极了！”她搂住了我，赞扬声雨点般落到我身上。
@@ -39,8 +39,8 @@
     <entry>
         <title type="html"><![CDATA[艾宾浩斯记忆遗忘曲线]]></title>
         <id>/艾宾浩斯遗忘曲线</id>
-        <link href="https://175.27.138.124/blog/blog/艾宾浩斯遗忘曲线"/>
-        <updated>2023-01-11T02:49:12.000Z</updated>
+        <link href="https://175.27.138.124/blog/艾宾浩斯遗忘曲线"/>
+        <updated>2023-01-30T07:42:06.000Z</updated>
         <summary type="html"><![CDATA[遗忘曲线由德国心理学家艾宾浩斯 H.Ebbinghaus 研究发现，描述了人类大脑对新事物遗忘的规律。人体大脑对新事物遗忘的循序渐进的直观描述，人们可以从遗忘曲线中掌握遗忘规律并加以利用，从而提升自我记忆能力。该曲线对人类记忆认知研究产生了重大影响。]]></summary>
         <content type="html"><![CDATA[<div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_S0QG"><p>遗忘曲线由德国心理学家艾宾浩斯 H.Ebbinghaus 研究发现，描述了人类大脑对新事物遗忘的规律。人体大脑对新事物遗忘的循序渐进的直观描述，人们可以从遗忘曲线中掌握遗忘规律并加以利用，从而提升自我记忆能力。该曲线对人类记忆认知研究产生了重大影响。</p></div></div><p>德国心理学家艾宾浩斯(H.Ebbinghaus）研究发现，遗忘在学习之后立即开始，而且遗忘的进程并不是均匀的。最初遗忘速度很快，以后逐渐缓慢。他认为"保持和遗忘是时间的函数"，他用无意义音节（由若干音节字母组成、能够读出、但无内容意义即不是词的音节）作记忆材料，用节省法计算保持和遗忘的数量。
 <!-- -->[1]<!-- -->  并根据他的实验结果绘成描述遗忘进程的曲线，即著名的艾宾浩斯记忆遗忘曲线</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="复习点的确定">复习点的确定<a class="hash-link" href="#复习点的确定" title="Direct link to heading">​</a></h2><p>1． 第一个记忆周期：5分钟
