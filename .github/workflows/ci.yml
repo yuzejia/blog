@@ -1,5 +1,5 @@
 # name 标识一下这个ci 文件名称 纯语义化的项，没有任何意义
-name: deploy-block-ci
+name: deploy-ci
 
 # 配置该仓库的分支触发什么事情后进行该 ci 的调用
 on:
@@ -14,9 +14,10 @@ on:
 
 # jobs 是一个功能脚本的维度集合。比如配置检测库语法 发布库 可以作为两个小工作（job）.一个yml 可以运行多个job
 jobs:
+
 # 一个lobs 拥有 setup / build / test 的持续执行单元。这个维度大于steps 小于jobs
-  jobs-build:
-    name: jobs and build
+  build:
+
 # 该操作跑在什么环境之下，支持 Ubuntu/windows/macOS
     runs-on: ubuntu-latest
 
@@ -33,14 +34,6 @@ jobs:
       - name: Install and Build 🔧 
         run: npm run build
 
-        
-  jobs-deploy:
-    if: ${{ always() }}
-    needs: [jobs-build]
-    name: jobs and Deploy
-    runs-on: ubuntu-latest
-
-    steps:
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
