@@ -4,8 +4,8 @@
   <ShortName>YUZEJIA</ShortName>
   <Description>Search YUZEJIA</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://175.27.138.124/img/docusaurus.jpg</Image>
-  <Url type="text/html" method="get" template="https://175.27.138.124/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://175.27.138.124/opensearch.xml" />
-  <moz:SearchForm>https://175.27.138.124/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://yuzejia.github.io/blog/img/docusaurus.jpg</Image>
+  <Url type="text/html" method="get" template="https://yuzejia.github.io/blog/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://yuzejia.github.io/blog/opensearch.xml" />
+  <moz:SearchForm>https://yuzejia.github.io/blog/</moz:SearchForm>
 </OpenSearchDescription>
