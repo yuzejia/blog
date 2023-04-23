@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'YUZEJIA',
   tagline: '',
-  url: '',
+  url: 'https://github.com/yuzejia/blog.git',
   baseUrl: '/blog/',
   projectName: 'endiliey.github.io',
   organizationName: 'endiliey',
